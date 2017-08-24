@@ -1,0 +1,215 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <RelativeLayout
+        android:id="@+id/main_content"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:fitsSystemWindows="true"
+        tools:context="appwork.almayce.easyboil.MainActivity">
+
+        <ImageView
+            android:id="@+id/backImage"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:contentDescription="back"
+            android:scaleType="centerCrop"
+            android:src="@drawable/main" />
+
+        <LinearLayout
+            android:id="@+id/container"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:baselineAligned="false"
+            android:orientation="horizontal">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1.4"
+                android:orientation="vertical">
+
+                <RelativeLayout
+                    android:id="@+id/rlEggs"
+                    android:contentDescription="eggs"
+                    android:onClick="onMainItemClick"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:background="@color/color_egg">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_centerInParent="true"
+                        android:text="@string/eggs"
+                        android:textColor="@color/white"
+                        android:textSize="@dimen/text_size" />
+
+                </RelativeLayout>
+
+                <RelativeLayout
+                    android:contentDescription="pasta"
+                    android:onClick="onMainItemClick"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:background="@color/color_pasta">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_centerInParent="true"
+                        android:text="@string/pasta"
+                        android:textColor="@color/white"
+                        android:textSize="@dimen/text_size" />
+
+                </RelativeLayout>
+
+                <RelativeLayout
+                    android:contentDescription="groats"
+                    android:onClick="onMainItemClick"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:background="@color/color_groat">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_centerInParent="true"
+                        android:text="@string/groats"
+                        android:textColor="@color/white"
+                        android:textSize="@dimen/text_size" />
+
+                </RelativeLayout>
+
+                <RelativeLayout
+                    android:contentDescription="fish"
+                    android:onClick="onMainItemClick"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:background="@color/color_fish">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_centerInParent="true"
+                        android:text="@string/fish"
+                        android:textColor="@color/white"
+                        android:textSize="@dimen/text_size" />
+
+                </RelativeLayout>
+
+                <RelativeLayout
+                    android:contentDescription="meat"
+                    android:onClick="onMainItemClick"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:background="@color/color_meat">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_centerInParent="true"
+                        android:text="@string/meat"
+                        android:textColor="@color/white"
+                        android:textSize="@dimen/text_size" />
+
+                </RelativeLayout>
+
+                <RelativeLayout
+                    android:contentDescription="veg"
+                    android:onClick="onMainItemClick"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:background="@color/color_veg">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_centerInParent="true"
+                        android:text="@string/veg"
+                        android:textColor="@color/white"
+                        android:textSize="@dimen/text_size" />
+
+                </RelativeLayout>
+
+                <RelativeLayout
+                    android:contentDescription="sea"
+                    android:onClick="onMainItemClick"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:background="@color/color_sea">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_centerInParent="true"
+                        android:text="@string/sea"
+                        android:textColor="@color/white"
+                        android:textSize="@dimen/text_size" />
+
+                </RelativeLayout>
+
+                <RelativeLayout
+                    android:contentDescription="shroom"
+                    android:onClick="onMainItemClick"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:background="@color/color_shroom">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_centerInParent="true"
+                        android:text="@string/shroom"
+                        android:textColor="@color/white"
+                        android:textSize="@dimen/text_size" />
+
+                </RelativeLayout>
+
+                <RelativeLayout
+                    android:contentDescription="other"
+                    android:onClick="onMainItemClick"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:background="@color/color_other">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_centerInParent="true"
+                        android:text="@string/other"
+                        android:textColor="@color/white"
+                        android:textSize="@dimen/text_size" />
+
+                </RelativeLayout>
+
+            </LinearLayout>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1">
+
+                <android.support.v7.widget.RecyclerView
+                    android:overScrollMode="never"
+                    android:id="@+id/rv"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                </android.support.v7.widget.RecyclerView>
+            </RelativeLayout>
+        </LinearLayout>
+    </RelativeLayout>
+</layout>
+
+

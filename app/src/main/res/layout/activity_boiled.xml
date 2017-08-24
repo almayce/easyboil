@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:id="@+id/rlTimer"
+    >
+
+    <ImageView
+        android:id="@+id/backImage"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:contentDescription="back"
+        android:scaleType="centerCrop"
+        android:src="@drawable/main"
+
+        />
+
+    <RelativeLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/container"
+        android:baselineAligned="false"
+        android:layout_margin="8dp"
+        android:background="@color/twhite">
+
+        <TextView
+            android:id="@+id/tvBoiled"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textAlignment="center"
+            android:text="@string/boiled"
+            android:textSize="50sp"
+            android:textStyle="bold"
+            android:background="@color/color_egg"
+            android:textColor="@color/white"
+            android:layout_centerInParent="true"
+            />
+
+        <TextView
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:id="@+id/tvStop"
+            android:text="@string/ok"
+            android:textSize="40sp"
+            android:textStyle="bold"
+            android:textColor="@color/white"
+            android:textAlignment="center"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true"
+        />
+
+    </RelativeLayout>
+
+</RelativeLayout>

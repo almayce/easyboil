@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#616161</color>
+    <color name="colorPrimaryDark">#c2185b</color>
+    <color name="colorAccent">#fbc02d</color>
+
+    <color name="tblack">#59000000</color>
+    <color name="black">#000000</color>
+    <color name="white">#ffffff</color>
+    <color name="twhite">#96ffffff</color>
+
+    <color name="color_egg">#96616161</color>
+    <color name="color_pasta">#96c2185b</color>
+    <color name="color_groat">#96fbc02d</color>
+    <color name="color_fish">#96512da8</color>
+    <color name="color_meat">#96388e3c</color>
+    <color name="color_veg">#96d32f2f</color>
+    <color name="color_sea">#960288d1</color>
+    <color name="color_shroom">#965d4037</color>
+    <color name="color_other">#96afb42b</color>
+
+</resources>

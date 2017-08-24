@@ -1,0 +1,181 @@
+<resources>
+    <string name="app_name">Easyboil</string>
+
+    <string name="min">min.</string>
+
+    <string name="frag1_text">Fragment 1</string>
+    <string name="frag2_text">Fragment 2</string>
+
+    <string name="eggs">EGGS</string>
+    <string name="pasta">PASTA</string>
+    <string name="groats">GROATS</string>
+    <string name="fish">FISH</string>
+    <string name="meat">MEAT</string>
+    <string name="veg">VEG</string>
+    <string name="sea">SEA</string>
+    <string name="shroom">SHROOM</string>
+    <string name="other">OTHER</string>
+
+    <!--Eggs-->
+    <string-array name="eggs">
+        <item>Chicken eggs^10</item>
+        <item>Quail eggs^5</item>
+        <item>Ostrich eggs^60</item>
+        <item>Goose eggs^15</item>
+        <item>Duck eggs^12</item>
+        <item>Turkey eggs^10</item>
+    </string-array>
+
+    <!--Pasta-->
+    <string-array name="pasta">
+        <item>Stelline^7</item>
+        <item>Ravioli^7</item>
+        <item>Lasagne sheets^5</item>
+        <item>Cannelloni^10</item>
+        <item>Spaghetti^9</item>
+        <item>Noodles^7</item>
+        <item>Penne^7</item>
+        <item>Vermicelli^5</item>
+        <item>Fusilli^7</item>
+        <item>Fettuccine^10</item>
+        <item>Tagliatelle^5</item>
+        <item>Farfalle^10</item>
+    </string-array>
+
+    <!--Groats-->
+    <string-array name="groats">
+        <item>Quinoa^15</item>
+        <item>Bulgur^20</item>
+        <item>Couscous^5</item>
+        <item>Oat porridge^5</item>
+        <item>Soybean^90</item>
+        <item>Rice^20</item>
+        <item>Beans^50</item>
+        <item>Buckwheat^20</item>
+        <item>Pearl barley^60</item>
+        <item>Lentil^25</item>
+        <item>Peas^60</item>
+        <item>Chickpeas^50</item>
+        <item>Semolina^7</item>
+        <item>Corn groats^30</item>
+        <item>Oat groats^30</item>
+        <item>Barley^40</item>
+        <item>Millet^30</item>
+    </string-array>
+
+    <!--Fish-->
+    <string-array name="fish">
+        <item>Cod^15</item>
+        <item>Salmon^25</item>
+        <item>Trout^15</item>
+        <item>Zander^10</item>
+        <item>Pike^25</item>
+        <item>Sturgeon^10</item>
+        <item>Mackerel^10</item>
+        <item>Pink salmon^15</item>
+        <item>Plaice^20</item>
+        <item>Herring^15</item>
+        <item>Capelin^10</item>
+        <item>Smelt^5</item>
+        <item>Perch^10</item>
+        <item>Carp^30</item>
+        <item>Ocean perch^10</item>
+        <item>Silver carp^25</item>
+        <item>Crucian carp^15</item>
+        <item>Chum salmon^30</item>
+        <item>Tuna^7</item>
+    </string-array>
+
+    <!--Meat-->
+    <string-array name="meat">
+        <item>Chicken^60</item>
+        <item>Lamb^90</item>
+        <item>Beef^60</item>
+        <item>Pork^120</item>
+        <item>Turkey^60</item>
+        <item>Rabbit^40</item>
+        <item>Horse^120</item>
+        <item>Veal^60</item>
+        <item>Duck^40</item>
+        <item>Goose^120</item>
+        <item>Goat^120</item>
+        <item>Hare^60</item>
+    </string-array>
+
+    <!--Vegetables-->
+    <string-array name="veg">
+        <item>Beet^40</item>
+        <item>Cauliflower^15</item>
+        <item>Sorrel^5</item>
+        <item>Broccoli^10</item>
+        <item>Corn^20</item>
+        <item>Brussels sprout^10</item>
+        <item>Carrot^25</item>
+        <item>Cabbage^25</item>
+        <item>Pumpkin^20</item>
+        <item>Asparagus^5</item>
+        <item>Potato^25</item>
+        <item>Veg marrow^10</item>
+        <item>Haricot^10</item>
+        <item>Kohlrabi^15</item>
+        <item>Aubergine^10</item>
+        <item>Turnip^20</item>
+        <item>Cymbling^15</item>
+        <item>Tomato^15</item>
+        <item>Artichoke^30</item>
+        <item>Onion^10</item>
+        <item>Paprika^7</item>
+        <item>Romanesco^10</item>
+        <item>White asparag.^15</item>
+    </string-array>
+
+    <!--Seafood-->
+    <string-array name="sea">
+        <item>Crab^15</item>
+        <item>Octopus^25</item>
+        <item>Crayfish^15</item>
+        <item>Squid^5</item>
+        <item>Shrimp^5</item>
+        <item>Mussel^10</item>
+        <item>Seafood mix^7</item>
+        <item>Lobster^15</item>
+        <item>Sea scallop^1</item>
+    </string-array>
+
+    <!--Mushrooms-->
+    <string-array name="shroom">
+        <item>Champignons^10</item>
+        <item>Armillaria^30</item>
+        <item>Boletus luteus^30</item>
+        <item>Cep^40</item>
+        <item>Chanterelle^20</item>
+        <item>Orange boletus^20</item>
+        <item>Brown boletus^40</item>
+        <item>Milk mushroom^15</item>
+        <item>Dried^30</item>
+    </string-array>
+
+    <!--Others-->
+    <string-array name="other">
+        <item>Pelmeni^10</item>
+        <item>Sausages^10</item>
+        <item>Vareniki^15</item>
+        <item>Manti^30</item>
+        <item>Hinkali^15</item>
+        <item>Cabbage rolls^30</item>
+        <item>Galushki^10</item>
+        <item>Meatballs^20</item>
+    </string-array>
+
+    <string name="more">more</string>
+    <string name="back">back</string>
+    <string name="start">Start timer:</string>
+    <string name="stop">Stop</string>
+
+    <string name="boiled">Boiled!</string>
+    <string name="ok">ok</string>
+
+
+    <string name="action_settings">action</string>
+
+</resources>

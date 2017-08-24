@@ -1,0 +1,181 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Easyboil</string>
+
+    <string name="min">мин.</string>
+
+    <string name="frag1_text">Fragment 1</string>
+    <string name="frag2_text">Fragment 2</string>
+
+    <string name="eggs">ЯЙЦА</string>
+    <string name="pasta">ПАСТА</string>
+    <string name="groats">КРУПЫ</string>
+    <string name="fish">РЫБА</string>
+    <string name="meat">МЯСО</string>
+    <string name="veg">ОВОЩИ</string>
+    <string name="sea">МОРЕ</string>
+    <string name="shroom">ГРЫБЫ</string>
+    <string name="other">ДРУГОЕ</string>
+
+    <!--Eggs-->
+    <string-array name="eggs">
+        <item>Куриные^10</item>
+        <item>Перепелиные^5</item>
+        <item>Страусиные^60</item>
+        <item>Гусиные^15</item>
+        <item>Утиные^12</item>
+        <item>Яйца индейки^10</item>
+    </string-array>
+
+    <!--Pasta-->
+    <string-array name="pasta">
+        <item>Звездочки^7</item>
+        <item>Равиоли^7</item>
+        <item>Листы лазаньи^5</item>
+        <item>Каннеллони^10</item>
+        <item>Спагетти^9</item>
+        <item>Лапша^7</item>
+        <item>Перья^7</item>
+        <item>Вермишель^5</item>
+        <item>Спиральки^7</item>
+        <item>Фетучини^10</item>
+        <item>Гнезда^5</item>
+        <item>Бантики^10</item>
+    </string-array>
+
+    <!--Groats-->
+    <string-array name="groats">
+        <item>Киноа^15</item>
+        <item>Булгур^20</item>
+        <item>Кускус^5</item>
+        <item>Геркулес^5</item>
+        <item>Соевые бобы^90</item>
+        <item>Рис^20</item>
+        <item>Фасоль^50</item>
+        <item>Гречка^20</item>
+        <item>Перловка^60</item>
+        <item>Чечевица^25</item>
+        <item>Горох^60</item>
+        <item>Нут^50</item>
+        <item>Манка^7</item>
+        <item>Кукурузная^30</item>
+        <item>Овсяная^30</item>
+        <item>Ячмень^40</item>
+        <item>Пшено^30</item>
+    </string-array>
+
+    <!--Fish-->
+    <string-array name="fish">
+        <item>Треска^15</item>
+        <item>Семга^25</item>
+        <item>Форель^15</item>
+        <item>Судак^10</item>
+        <item>Щука^25</item>
+        <item>Осетр^10</item>
+        <item>Скумбрия^10</item>
+        <item>Горбуша^15</item>
+        <item>Камбала^20</item>
+        <item>Селедка^15</item>
+        <item>Мойва^10</item>
+        <item>Корюшка^5</item>
+        <item>Окунь^10</item>
+        <item>Карп^30</item>
+        <item>Морской окунь^10</item>
+        <item>Толстолобик^25</item>
+        <item>Карась^15</item>
+        <item>Кета^30</item>
+        <item>Тунец^7</item>
+    </string-array>
+
+    <!--Meat-->
+    <string-array name="meat">
+        <item>Курица^60</item>
+        <item>Баранина^90</item>
+        <item>Говядина^60</item>
+        <item>Свинина^120</item>
+        <item>Индейка^60</item>
+        <item>Кролик^40</item>
+        <item>Конина^120</item>
+        <item>Телятина^60</item>
+        <item>Утка^40</item>
+        <item>Гусятина^120</item>
+        <item>Козлятина^120</item>
+        <item>Зайчатина^60</item>
+    </string-array>
+
+    <!--Vegetables-->
+    <string-array name="veg">
+        <item>Свекла^40</item>
+        <item>Капуста цв.^15</item>
+        <item>Щавель^5</item>
+        <item>Броколли^10</item>
+        <item>Кукуруза^20</item>
+        <item>Брюс. капуста^10</item>
+        <item>Морковь^25</item>
+        <item>Капуста^25</item>
+        <item>Тыква^20</item>
+        <item>Спаржа^5</item>
+        <item>Картофель^25</item>
+        <item>Кабачок^10</item>
+        <item>Фасоль^10</item>
+        <item>Кольраби^15</item>
+        <item>Баклажан^10</item>
+        <item>Репа^20</item>
+        <item>Патиссон^15</item>
+        <item>Помидор^15</item>
+        <item>Артишок^30</item>
+        <item>Лук^10</item>
+        <item>Перец^7</item>
+        <item>Романеско^10</item>
+        <item>Бел. спаржа^15</item>
+    </string-array>
+
+    <!--Seafood-->
+    <string-array name="sea">
+        <item>Краб^15</item>
+        <item>Осьминог^25</item>
+        <item>Раки^15</item>
+        <item>Кальмары^5</item>
+        <item>Креветки^5</item>
+        <item>Мидии^10</item>
+        <item>Коктейль^7</item>
+        <item>Омар^15</item>
+        <item>Гребешок^1</item>
+    </string-array>
+
+    <!--Mushrooms-->
+    <string-array name="shroom">
+        <item>Шампиньоны^10</item>
+        <item>Опята^30</item>
+        <item>Маслята^30</item>
+        <item>Белые^40</item>
+        <item>Лисички^20</item>
+        <item>Подосиновики^20</item>
+        <item>Подберезовики^40</item>
+        <item>Грузди^15</item>
+        <item>Сушеные^30</item>
+    </string-array>
+
+    <!--Others-->
+    <string-array name="other">
+        <item>Пельмени^10</item>
+        <item>Сосиски^10</item>
+        <item>Вареники^15</item>
+        <item>Манты^30</item>
+        <item>Хинкали^15</item>
+        <item>Голубцы^30</item>
+        <item>Галушки^10</item>
+        <item>Фрикадельки^20</item>
+    </string-array>
+
+    <string name="more">еще</string>
+    <string name="back">назад</string>
+    <string name="start">Запустить таймер:</string>
+    <string name="stop">Стоп</string>
+
+    <string name="boiled">Сварилось!</string>
+    <string name="ok">ok</string>
+
+    <string name="action_settings">action</string>
+
+</resources>
